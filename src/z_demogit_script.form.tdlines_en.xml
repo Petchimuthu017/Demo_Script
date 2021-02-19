@@ -25,6 +25,14 @@
     </TLINE>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TEST</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Test output</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
      <TDLINE>TITLE</TDLINE>
     </TLINE>
     <TLINE>
