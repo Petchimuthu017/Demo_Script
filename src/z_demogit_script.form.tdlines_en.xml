@@ -5,19 +5,15 @@
    <TDLINES>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
-     <TDLINE>FOOTER1</TDLINE>
-    </TLINE>
-    <TLINE>
-     <TDFORMAT>*</TDFORMAT>
-     <TDLINE>Change in bugfix branch</TDLINE>
-    </TLINE>
-    <TLINE>
-     <TDFORMAT>/W</TDFORMAT>
      <TDLINE>FOOTER2</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>*</TDFORMAT>
      <TDLINE>Change in master branch</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Added 2 line in Master branch</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
@@ -32,11 +28,8 @@
      <TDLINE>Material,,QTY,,Price</TDLINE>
     </TLINE>
     <TLINE>
-     <TDFORMAT>/*</TDFORMAT>
+     <TDFORMAT>*</TDFORMAT>
      <TDLINE>Material,,Batch,,QTY,,Price</TDLINE>
-    </TLINE>
-    <TLINE>
-     <TDFORMAT>*</TDFORMAT>      <TDLINE>Material,,Description,,Batch,,QTY,,Price</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>/E</TDFORMAT>
@@ -44,13 +37,11 @@
     </TLINE>
     <TLINE>
      <TDFORMAT>/*</TDFORMAT>
-     <TDLINE>%26amp;gs_vbrp-matnr%26amp;,,%26amp;gs_vbrp-lmeng%26amp;,,%26amp;gs_vbrp-netwr%26amp;</TDLINE>
+     <TDLINE>&amp;gs_vbrp-matnr&amp;,,&amp;gs_vbrp-lmeng&amp;,,&amp;gs_vbrp-netwr&amp;</TDLINE>
     </TLINE>
     <TLINE>
-     <TDFORMAT>/*</TDFORMAT>
-     <TDLINE>%26amp;gs_vbrp-matnr%26amp;,,%26amp;gs_vbrp-charg%26amp;,,%26amp;gs_vbrp-lmeng%26amp;,,%26amp;gs_vbrp-netwr%26amp;</TDLINE>
      <TDFORMAT>*</TDFORMAT>
-     <TDLINE>%26amp;gs_vbrp-matnr%26amp;,,%26amp;gs_vbrp-maktx%26amp;,,%26amp;gs_vbrp-charg%26amp;,,%26amp;gs_vbrp-lmeng%26amp;,,%26amp;gs_vbrp-netwr%26amp;</TDLINE>
+     <TDLINE>&amp;gs_vbrp-matnr&amp;,,&amp;gs_vbrp-charg&amp;,,&amp;gs_vbrp-lmeng&amp;,,&amp;gs_vbrp-netwr&amp;</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
@@ -70,7 +61,7 @@
     </TLINE>
     <TLINE>
      <TDFORMAT>*</TDFORMAT>
-     <TDLINE>Invoice Number: %26amp;gs_vbrk-vbeln%26amp;</TDLINE>
+     <TDLINE>Invoice Number: &amp;gs_vbrk-vbeln&amp;</TDLINE>
     </TLINE>
    </TDLINES>
   </asx:values>
