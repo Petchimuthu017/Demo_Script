@@ -145,6 +145,29 @@ CLASS lcl_inv IMPLEMENTATION.
       CLEAR: gs_vbrp.
     ENDLOOP.
     UNASSIGN: <fs_vbrp>.
+    CALL FUNCTION 'WRITE_FORM'
+       EXPORTING
+*         ELEMENT                        = ' '
+*         FUNCTION                       = 'SET'
+*         TYPE                           = 'BODY'
+         WINDOW                         = 'FOOTER2'
+*       IMPORTING
+*         PENDING_LINES                  =
+       EXCEPTIONS
+         ELEMENT                        = 1
+         FUNCTION                       = 2
+         TYPE                           = 3
+         UNOPENED                       = 4
+         UNSTARTED                      = 5
+         WINDOW                         = 6
+         BAD_PAGEFORMAT_FOR_PRINT       = 7
+         SPOOL_ERROR                    = 8
+         CODEPAGE                       = 9
+         OTHERS                         = 10
+                .
+      IF sy-subrc <> 0.
+* Implement suitable error handling here
+      ENDIF.
     CALL FUNCTION 'CLOSE_FORM'
 *     IMPORTING
 *       RESULT                         =
