@@ -37,7 +37,7 @@
     </TLINE>
     <TLINE>
      <TDFORMAT>*</TDFORMAT>
-     <TDLINE>&amp;gs_vbrp-matnr&amp;,,&amp;gs_vbrp-maktx&amp;,,&amp;gs_vbrp-lmeng&amp;,,&amp;gs_vbrp-netwr&amp;</TDLINE>
+     <TDLINE>&amp;gs_vbrp-matnr&amp;,,&amp;gs_vbrp-arktx&amp;,,&amp;gs_vbrp-lmeng&amp;,,&amp;gs_vbrp-netwr&amp;</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
