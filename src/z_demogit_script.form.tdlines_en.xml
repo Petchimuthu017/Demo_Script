@@ -5,6 +5,14 @@
    <TDLINES>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>FOOTER2</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Change in master branch</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
      <TDLINE>MAIN</TDLINE>
     </TLINE>
     <TLINE>
@@ -12,16 +20,24 @@
      <TDLINE>ITEM_HEADER</TDLINE>
     </TLINE>
     <TLINE>
-     <TDFORMAT>*</TDFORMAT>
+     <TDFORMAT>/*</TDFORMAT>
      <TDLINE>Material,,QTY,,Price</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Material,,Batch,,QTY,,Price</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>/E</TDFORMAT>
      <TDLINE>ITEM_VALUE</TDLINE>
     </TLINE>
     <TLINE>
-     <TDFORMAT>*</TDFORMAT>
+     <TDFORMAT>/*</TDFORMAT>
      <TDLINE>&amp;gs_vbrp-matnr&amp;,,&amp;gs_vbrp-lmeng&amp;,,&amp;gs_vbrp-netwr&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&amp;gs_vbrp-matnr&amp;,,&amp;gs_vbrp-charg&amp;,,&amp;gs_vbrp-lmeng&amp;,,&amp;gs_vbrp-netwr&amp;</TDLINE>
     </TLINE>
     <TLINE>
      <TDFORMAT>/W</TDFORMAT>
